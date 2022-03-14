@@ -31,6 +31,18 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="About" id="iHj-CK-C3W"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tRn-v0-DUp"/>
+                                    <barButtonItem style="plain" id="ofu-tJ-wbL">
+                                        <pageControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="DtP-v3-AIM">
+                                            <rect key="frame" x="73" y="9" width="182" height="26"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" systemColor="systemTealColor"/>
+                                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="pageControlTapped:" destination="SlR-kF-y6F" eventType="valueChanged" id="Orb-wO-em1"/>
+                                            </connections>
+                                        </pageControl>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="fz5-fG-eVN"/>
                                     <barButtonItem image="list.bullet" catalog="system" id="77i-cD-ICH">
                                         <connections>
@@ -96,6 +108,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="XEE-km-lWe" id="6zQ-99-ztF"/>
                         <outlet property="imageView" destination="E5e-Pj-hia" id="6Uc-6a-kUc"/>
+                        <outlet property="pageControl" destination="DtP-v3-AIM" id="kse-Pz-TeT"/>
                         <outlet property="placeLabel" destination="nD5-C0-tkI" id="kkb-0B-VHb"/>
                         <outlet property="summaryLabel" destination="9j6-P8-lgQ" id="TMg-a5-4Lo"/>
                         <outlet property="temperatureLabel" destination="73I-ZA-srU" id="axc-7r-TPA"/>
