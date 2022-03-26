@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2E23A627EFA05100F46B6F /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E23A527EFA05100F46B6F /* DailyTableViewCell.swift */; };
 		9F34819B27D1107700E55B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34819A27D1107700E55B65 /* AppDelegate.swift */; };
 		9F34819D27D1107700E55B65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34819C27D1107700E55B65 /* SceneDelegate.swift */; };
 		9F34819F27D1107700E55B65 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34819E27D1107700E55B65 /* LocationListViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3B0F07A377CC5BEBCD18E08A /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2E23A527EFA05100F46B6F /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		9F34819727D1107700E55B65 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F34819A27D1107700E55B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F34819C27D1107700E55B65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				9FBDDB8D27DF95EC00A9F91A /* PageViewController.swift */,
 				9FBDDB8B27DF87E200A9F91A /* LocationDetailViewController.swift */,
 				9F34819E27D1107700E55B65 /* LocationListViewController.swift */,
+				9F2E23A527EFA05100F46B6F /* DailyTableViewCell.swift */,
 				9F3481A027D1107700E55B65 /* Main.storyboard */,
 				9F3481A327D1107A00E55B65 /* Assets.xcassets */,
 				9F3481A527D1107A00E55B65 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2E23A627EFA05100F46B6F /* DailyTableViewCell.swift in Sources */,
 				9F34819F27D1107700E55B65 /* LocationListViewController.swift in Sources */,
 				9FBDDB9027DFAC8B00A9F91A /* WeatherDetail.swift in Sources */,
 				9FBDDB8E27DF95EC00A9F91A /* PageViewController.swift in Sources */,
