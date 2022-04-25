@@ -2,7 +2,7 @@
 //  AboutViewController.swift
 //  WeatherGift
 //
-//  Created by Rosemary Gellene on 3/26/22.
+//  Created by Rosemary Gellene on 4/25/22.
 //
 
 import UIKit

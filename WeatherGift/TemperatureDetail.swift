@@ -1,5 +1,5 @@
 //
-//  WeatherDetail.swift
+//  TemperatureDetail.swift
 //  WeatherGift
 //
 //  Created by Rosemary Gellene on 4/25/22.
@@ -13,7 +13,7 @@ private let dateFormatter: DateFormatter = {
     return dateFormatter
 }()
 
-class WeatherDetail: WeatherLocation {
+class TemperatureDetail: WeatherLocation {
     
     private struct Result: Codable {
         var timezone: String
@@ -61,50 +61,6 @@ class WeatherDetail: WeatherLocation {
         }
         task.resume()
     }
-    
-//    private func shirtforTemp(temp: Double) -> String {
-//        var shirtImage = ""
-//        switch temp {
-//        case 60...150:
-//            shirtImage = "ss"
-//        case 45...60:
-//            shirtImage = "ss-ls"
-//        case -35...45:
-//            shirtImage = "ss-sw"
-//        default:
-//            shirtImage = ""
-//        }
-//        return shirtImage
-//    }
-    
-//    private func pantsforTemp(temp: Double) -> String {
-//        var pantsImage = ""
-//        switch temp {
-//        case 60...150:
-//            pantsImage = "s"
-//        case 45...60:
-//            pantsImage = "s-p"
-//        case -35...45:
-//            pantsImage = "p"
-//        default:
-//            pantsImage = ""
-//        }
-//        return pantsImage
-//    }
-//
-//    private func layersforTemp(temp: Double) -> String {
-//        var layersImage = ""
-//        switch temp {
-//        case 60...150:
-//            layersImage = ""
-//        case 45...60:
-//            layersImage = "sw"
-//        case -35...45:
-//            layersImage = "c"
-//        default:
-//            layersImage = ""
-//        }
-//        return layersImage
-//    }
 }
+
 

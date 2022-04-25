@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  WeatherGift
 //
-//  Created by Rosemary Gellene on 3/3/22.
+//  Created by Rosemary Gellene on 4/25/22.
 //
 
 
@@ -13,8 +13,6 @@ class LocationListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var editBarButton: UIBarButtonItem!
     @IBOutlet weak var addBarButton: UIBarButtonItem!
-    
-    
     
     var weatherLocations: [WeatherLocation] = []
     var selectedLocationIndex = 0
@@ -45,7 +43,7 @@ class LocationListViewController: UIViewController {
         let autocompleteController = GMSAutocompleteViewController()
         autocompleteController.delegate = self
 
-            // Display the autocomplete view controller.
+        // Display the autocomplete view controller.
             present(autocompleteController, animated: true, completion: nil)
     }
     
@@ -113,7 +111,6 @@ extension LocationListViewController: GMSAutocompleteViewControllerDelegate {
   }
 
   func viewController(_ viewController: GMSAutocompleteViewController, didFailAutocompleteWithError error: Error) {
-    // TODO: handle the error.
     print("Error: ", error.localizedDescription)
   }
 
